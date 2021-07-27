@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Pilot Avator Glasses",
+    "price": "45.00",
+    "imageUrl": "img/glasses.png"
+  },
+  {
+    "id": 2,
+    "name": "Command Hats",
+    "price": "15.00",
+    "imageUrl": "img/hats.png"
+  },
+  {
+    "id": 3,
+    "name": "Mission T-Shirts",
+    "price": "25.00",
+    "imageUrl": "img/shirts.png"
+  }
+]

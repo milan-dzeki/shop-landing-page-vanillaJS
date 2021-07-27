@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+    rel="stylesheet">
+  <title>Shop</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <script src="shop.js" defer></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <!-- header top -->
+    <section class="header__top">
+      <!-- logo -->
+      <div class="header__logo">
+        <img src="./img/msg-digital-logo.png" alt="logo">
+      </div>
+      <!-- navbar -->
+      <nav class="navbar">
+        <!-- links -->
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__link active">home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__link" >services</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#store" class="navbar__link">store</a>
+          </li>
+        </ul>
+        <!-- cart icon -->
+        <div class="cart-icon">
+          <div class="cart-icon__img">
+            <img src="./img/empty-cart.png" alt="cart">
+          </div>
+          <div class="cart-icon__amount">
+            0
+          </div>
+          <div class="cart__box-empty__msg">
+            All items are removed from the Cart
+          </div>
+          <div class="cart__box">
+            <!-- cart box alert -->
+            <div class="cart__box-remove-alert">
+              item removed from cart
+            </div>
+            <div class="cart__box-items">
+              <!-- item model -->
+              <!-- <div class="cart__box-item">
+                <div class="cart__box-item__top">
+                  <img class="cart__box-item__img"  src="./img/glasses.png" alt="">
+                  <button class="cart__box-item__remove">
+                    Remove
+                  </button>
+                </div>
+                <div class="cart__box-item__bottom">
+                  <p class="cart__box-item__name">
+                    pilot some glassses
+                  </p>
+                  <div class="cart__box-item__pricebox">
+                    <p class="cart__box-item__amount">(1)</p>
+                    <p class="cart__box-item__price">$45</p>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <div class="cart__box-total">
+              <p class="cart__box-total__text">
+                Total:
+              </p>
+              <p class="cart__box-total__price">
+                0
+              </p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- header bottom -->
+    <section class="header__bottom">
+      <p class="header__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloremque recusandae sapiente...
+      </p>
+      <a href="./index.html" class="header__bottom-link">
+      work with us!</a>
+    </section>
+  </header>
+  <main>
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+      <!-- services header -->
+      <article class="services__header section-header">
+        <div class="services__title section-title">
+          <h1>services we provide</h1>
+          <div class="services__title-underline section-title__underline"></div>
+        </div>
+        <p class="services__text section-text">
+          We are working with both individuals and businesses from all over the globe to create awesome websites and applications.
+        </p>
+      </article>
+      <!-- services content -->
+      <article class="section-content services__content">
+        <div class="section-content__center services__content-center">
+          <!-- single item -->
+          <div class="services__item">
+            <div class="services__item-img">
+              <img src="./img/flag.png" alt="branding">
+            </div>
+            <h2 class="services__item-title">
+              branding
+            </h2>
+            <p class="services__item-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, at.
+            </p>
+          </div>
+          <!-- single item -->
+          <div class="services__item">
+            <div class="services__item-img">
+              <img src="./img/pencil.png" alt="branding">
+            </div>
+            <h2 class="services__item-title">
+              design
+            </h2>
+            <p class="services__item-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, at.
+            </p>
+          </div>
+          <!-- single item -->
+          <div class="services__item">
+            <div class="services__item-img">
+              <img src="./img/gears.png" alt="branding">
+            </div>
+            <h2 class="services__item-title">
+              development
+            </h2>
+            <p class="services__item-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, at.
+            </p>
+          </div>
+          <!-- single item -->
+          <div class="services__item">
+            <div class="services__item-img">
+              <img src="./img/rocket.png" alt="branding">
+            </div>
+            <h2 class="services__item-title">
+              rocket science
+            </h2>
+            <p class="services__item-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, at.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- STORE -->
+    <section class="store section" id="store">
+      <!-- store header -->
+      <article class="store__header section-header">
+        <div class="store__title section-title">
+          <h1>our store</h1>
+          <div class="store__title-underline section-title__underline"></div>
+        </div>
+        <p class="store__text section-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus reiciendis architecto praesentium est o.
+        </p>
+      </article>
+      <!-- store content -->
+      <article class="section-content store__content">
+        <div class="section-content__center store__content-center">
+          <!-- single item model -->
+          <!-- <div class="store__item">
+            <div class="store__item-img">
+              <img src="./img/glasses.png" alt="product-glasses">
+            </div>
+            <p class="store__item-name">
+              pilot aviator glasses
+            </p>
+            <p class="store__item-price">
+              $44.00
+            </p>
+            <button class="store__item-cart-btn" type="button">
+              Add to Cart
+            </button>
+          </div> -->
+        </div>
+      </article>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <ul class="footer__links">
+      <li class="footer__item">
+        <a href="index.html" class="footer__link">
+          Facebook
+        </a>
+      </li>
+      <li class="footer__item">
+        <a href="index.html" class="footer__link">
+          Twitter
+        </a>
+      </li>
+      <li class="footer__item">
+        <a href="index.html" class="footer__link">
+          Google+
+        </a>
+      </li>
+      <li class="footer__item">
+        <a href="index.html" class="footer__link">
+          Behance
+        </a>
+      </li>
+      <li class="footer__item">
+        <a href="index.html" class="footer__link">
+          Dribble
+        </a>
+      </li>
+      <li class="footer__item">
+        <a href="index.html" class="footer__link">
+          Dribble
+        </a>
+      </li>
+      <li class="footer__item">
+        <a href="index.html" class="footer__link">
+          GitHub
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+</html>
