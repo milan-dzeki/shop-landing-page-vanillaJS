@@ -516,3 +516,28 @@ button {
     font-size: 2rem;
   }
 }
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .navbar__list {
+    margin-bottom: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  html {
+    font-size: 40%;
+  }
+}
