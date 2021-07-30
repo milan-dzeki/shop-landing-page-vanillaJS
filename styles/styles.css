@@ -534,6 +534,9 @@ button {
   .cart__box {
     transform: translateX(40%);
   }
+  .cart__box-empty__msg {
+    transform: translateX(40%);
+  }
 }
 
 @media screen and (max-width: 350px) {
