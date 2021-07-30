@@ -530,6 +530,12 @@ button {
   }
 }
 
+@media screen and (max-width: 380px) {
+  .cart__box {
+    transform: translateX(40%);
+  }
+}
+
 @media screen and (max-width: 350px) {
   html {
     font-size: 45%;
